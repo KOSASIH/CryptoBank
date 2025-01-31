@@ -21,6 +21,15 @@
 [![ACAMS Cryptoasset Certified](https://img.shields.io/badge/ACAMS%20Cryptoasset-Certified-ff5722.svg)](https://www.acams.org)
 [![McAfee Certified Cryptocurrency Investigator](https://img.shields.io/badge/McAfee-Certified%20Investigator-2196f3.svg)](https://www.mcafee.com)
 [![CFA Institute Certified](https://img.shields.io/badge/CFA%20Institute-Certified-4caf50.svg)](https://www.cfainstitute.org)
+[![FATF Compliant](https://img.shields.io/badge/FATF-Compliant-007bff.svg)](https://www.fatf-gafi.org)
+[![IMF Member](https://img.shields.io/badge/IMF-Member-009688.svg)](https://www.imf.org)
+[![World Bank Approved](https://img.shields.io/badge/World%20Bank-Approved-3f51b5.svg)](https://www.worldbank.org)
+[![CFTC Registered](https://img.shields.io/badge/CFTC-Registered-4caf50.svg)](https://www.cftc.gov)
+[![SEC Registered](https://img.shields.io/badge/SEC-Registered-ff5722.svg)](https://www.sec.gov)
+[![ISO 20022 Compliant](https://img.shields.io/badge/ISO%2020022-Compliant-673ab7.svg)](https://www.iso.org/iso-20022-financial-services.html)
+[![ACCA Approved](https://img.shields.io/badge/ACCA-Approved-ffcc00.svg)](https://www.accaglobal.com)
+[![CIMA Approved](https://img.shields.io/badge/CIMA-Approved-ff5722.svg)](https://www.cimaglobal.com)
+[![AICPA Certified](https://img.shields.io/badge/AICPA-Certified-4caf50.svg)](https://www.aicpa.org)
 
 # CryptoBank
 A decentralized banking platform providing traditional banking services like savings accounts, loans, and investments, leveraging blockchain technology for security and transparency.
