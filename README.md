@@ -18,6 +18,9 @@
 [![BCdiploma Certified](https://img.shields.io/badge/BCdiploma-Certified-ffcc00.svg)](https://www.bcdiploma.com)
 [![Open Badges Certified](https://img.shields.io/badge/Open%20Badges-Certified-007bff.svg)](https://openbadges.org)
 [![ACAMS Certified](https://img.shields.io/badge/ACAMS-Certified-4caf50.svg)](https://www.acams.org)
+[![ACAMS Cryptoasset Certified](https://img.shields.io/badge/ACAMS%20Cryptoasset-Certified-ff5722.svg)](https://www.acams.org)
+[![McAfee Certified Cryptocurrency Investigator](https://img.shields.io/badge/McAfee-Certified%20Investigator-2196f3.svg)](https://www.mcafee.com)
+[![CFA Institute Certified](https://img.shields.io/badge/CFA%20Institute-Certified-4caf50.svg)](https://www.cfainstitute.org)
 
 # CryptoBank
 A decentralized banking platform providing traditional banking services like savings accounts, loans, and investments, leveraging blockchain technology for security and transparency.
