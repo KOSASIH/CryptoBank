@@ -1,4 +1,3 @@
-
 [![IMF Approved](https://img.shields.io/badge/IMF-Approved-007bff.svg)](https://www.imf.org)
 [![World Bank Supported](https://img.shields.io/badge/World%20Bank-Supported-009688.svg)](https://www.worldbank.org)
 [![World Bank Approved](https://img.shields.io/badge/World%20Bank-Approved-3f51b5.svg)](https://www.worldbank.org)
@@ -16,6 +15,9 @@
 [![OECD Compliant](https://img.shields.io/badge/OECD-Compliant-4caf50.svg)](https://www.oecd.org)
 [![FATF Compliant](https://img.shields.io/badge/FATF-Compliant-ff5722.svg)](https://www.fatf-gafi.org)
 [![IFC Supported](https://img.shields.io/badge/IFC-Supported-673ab7.svg)](https://www.ifc.org)
+[![BCdiploma Certified](https://img.shields.io/badge/BCdiploma-Certified-ffcc00.svg)](https://www.bcdiploma.com)
+[![Open Badges Certified](https://img.shields.io/badge/Open%20Badges-Certified-007bff.svg)](https://openbadges.org)
+[![ACAMS Certified](https://img.shields.io/badge/ACAMS-Certified-4caf50.svg)](https://www.acams.org)
 
 # CryptoBank
 A decentralized banking platform providing traditional banking services like savings accounts, loans, and investments, leveraging blockchain technology for security and transparency.
