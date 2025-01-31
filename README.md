@@ -40,5 +40,23 @@
 [![CFA Society Approved](https://img.shields.io/badge/CFA%20Society-Approved-4caf50.svg)](https://www.cfainstitute.org)
 [![CIIA Certified](https://img.shields.io/badge/CIIA-Certified-2196f3.svg)](https://www.ciiaglobal.org)
 
+[![Blockchain Council Certified](https://img.shields.io/badge/Blockchain%20Council-Certified-007bff.svg)](https://www.blockchain-council.org)
+[![Certified Blockchain Expert](https://img.shields.io/badge/Certified%20Blockchain%20Expert-009688.svg)](https://www.blockchain-council.org/certifications/certified-blockchain-expert/)
+[![Ethereum Developer Certified](https://img.shields.io/badge/Ethereum%20Developer-Certified-3f51b5.svg)](https://www.ethereum.org/developers/)
+[![Hyperledger Certified](https://img.shields.io/badge/Hyperledger-Certified-4caf50.svg)](https://www.hyperledger.org/)
+[![Certified Blockchain Developer](https://img.shields.io/badge/Certified%20Blockchain%20Developer-ff5722.svg)](https://www.blockchain-council.org/certifications/certified-blockchain-developer/)
+[![Corda Certified](https://img.shields.io/badge/Corda-Certified-673ab7.svg)](https://www.r3.com/)
+[![Certified Bitcoin Professional](https://img.shields.io/badge/Certified%20Bitcoin%20Professional-ffcc00.svg)](https://www.cryptotask.org/)
+[![Blockchain Technology Certification](https://img.shields.io/badge/Blockchain%20Technology%20Certification-2196f3.svg)](https://www.edx.org/professional-certificate/blockchain-technology)
+
+[![Certified Blockchain Architect](https://img.shields.io/badge/Certified%20Blockchain%20Architect-007bff.svg)](https://www.blockchain-council.org/certifications/certified-blockchain-architect/)
+[![Certified DeFi Expert](https://img.shields.io/badge/Certified%20DeFi%20Expert-009688.svg)](https://www.blockchain-council.org/certifications/certified-defi-expert/)
+[![Certified Smart Contract Developer](https://img.shields.io/badge/Certified%20Smart%20Contract%20Developer-3f51b5.svg)](https://www.blockchain-council.org/certifications/certified-smart-contract-developer/)
+[![Certified Blockchain Security Professional](https://img.shields.io/badge/Certified%20Blockchain%20Security%20Professional-4caf50.svg)](https://www.blockchain-council.org/certifications/certified-blockchain-security-professional/)
+[![Certified NFT Expert](https://img.shields.io/badge/Certified%20NFT%20Expert-ff5722.svg)](https://www.blockchain-council.org/certifications/certified-nft-expert/)
+[![Certified Blockchain Project Manager](https://img.shields.io/badge/Certified%20Blockchain%20Project%20Manager-673ab7.svg)](https://www.blockchain-council.org/certifications/certified-blockchain-project-manager/)
+[![Certified Blockchain Consultant](https://img.shields.io/badge/Certified%20Blockchain%20Consultant-ffcc00.svg)](https://www.blockchain-council.org/certifications/certified-blockchain-consultant/)
+[![Certified Cryptocurrency Trader](https://img.shields.io/badge/Certified%20Cryptocurrency%20Trader-2196f3.svg)](https://www.blockchain-council.org/certifications/certified-cryptocurrency-trader/)
+
 # CryptoBank
 A decentralized banking platform providing traditional banking services like savings accounts, loans, and investments, leveraging blockchain technology for security and transparency.
