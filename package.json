@@ -25,9 +25,9 @@
   "license": "Apache 2.0",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.10.9",
+    "mongoose": "^8.9.5",
     "dotenv": "^8.2.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.2",
     "bcryptjs": "^2.4.3",
     "node-cache": "^5.1.2",
     "sanitize-html": "^2.3.0",
