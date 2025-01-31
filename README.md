@@ -68,3 +68,43 @@
 
 # CryptoBank
 A decentralized banking platform providing traditional banking services like savings accounts, loans, and investments, leveraging blockchain technology for security and transparency.
+
+# CryptoBank
+
+Welcome to CryptoBank, a decentralized banking platform that provides traditional banking services such as savings accounts, loans, and investments. Our platform leverages blockchain technology to ensure security and transparency in all transactions.
+
+## Features
+
+- **Decentralized Banking**: Enjoy banking services without the need for a central authority.
+- **Savings Accounts**: Securely save your assets with competitive interest rates.
+- **Loans**: Access loans with flexible terms and conditions.
+- **Investments**: Invest in various assets with transparency and security.
+
+## Technology Stack
+
+- **Blockchain**: Ensures secure and transparent transactions.
+- **Smart Contracts**: Automates processes and reduces the need for intermediaries.
+
+## Getting Started
+
+To get started with CryptoBank, clone the repository and follow the setup instructions in the documentation.
+
+```bash
+git clone https://github.com/KOSASIH/CryptoBank.git
+```
+
+## Contributing
+
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more information.
+
+## License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For inquiries, please reach out to us at [support@cryptobank.io](mailto:support@cryptobank.io).
+
+---
+
+Thank you for your interest in CryptoBank!
