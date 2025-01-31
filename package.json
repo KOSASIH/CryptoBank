@@ -1,0 +1,95 @@
+{
+  "name": "cryptobank",
+  "version": "1.0.0",
+  "description": "A high-tech decentralized banking platform leveraging blockchain technology.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "mocha --require @babel/register src/tests/**/*.test.js",
+    "lint": "eslint .",
+    "format": "prettier --write '**/*.{js,json,md}'",
+    "build": "webpack --config webpack.config.js",
+    "e2e": "cypress open",
+    "coverage": "nyc --reporter=html --reporter=text mocha --require @babel/register src/tests/**/*.test.js",
+    "deploy": "bash scripts/deploy.sh"
+  },
+  "keywords": [
+    "blockchain",
+    "decentralized",
+    "banking",
+    "cryptocurrency",
+    "finance"
+  ],
+  "author": "KOSASIH",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "node-cache": "^5.1.2",
+    "sanitize-html": "^2.3.0",
+    "supertest": "^6.1.0",
+    "cypress": "^6.5.0",
+    "nodemon": "^2.0.7",
+    "eslint": "^7.11.0",
+    "prettier": "^2.2.1",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0",
+    "nyc": "^15.1.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 0.25%",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KOSASIH/cryptobank.git"
+  },
+  "homepage": "https://github.com/KOSASIH/cryptobank#readme",
+  "bugs": {
+    "url": "https://github.com/KOSASIH/cryptobank/issues"
+  },
+  "config": {
+    "cypress": {
+      "baseUrl": "http://localhost:3000"
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:node/recommended",
+      "plugin:promise/recommended"
+    ],
+    "env": {
+      "node": true,
+      "mocha": true,
+      "es6": true
+    },
+    "rules": {
+      "no-console": "warn",
+      "import/no-unresolved": "error",
+      "promise/always-return": "error"
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
