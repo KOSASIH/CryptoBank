@@ -57,6 +57,14 @@
 [![Certified Blockchain Project Manager](https://img.shields.io/badge/Certified%20Blockchain%20Project%20Manager-673ab7.svg)](https://www.blockchain-council.org/certifications/certified-blockchain-project-manager/)
 [![Certified Blockchain Consultant](https://img.shields.io/badge/Certified%20Blockchain%20Consultant-ffcc00.svg)](https://www.blockchain-council.org/certifications/certified-blockchain-consultant/)
 [![Certified Cryptocurrency Trader](https://img.shields.io/badge/Certified%20Cryptocurrency%20Trader-2196f3.svg)](https://www.blockchain-council.org/certifications/certified-cryptocurrency-trader/)
+[![Certified Blockchain Developer Associate](https://img.shields.io/badge/Certified%20Blockchain%20Developer%20Associate-007bff.svg)](https://www.blockchaintrainingalliance.com/certifications/certified-blockchain-developer-associate/)
+[![Certified Blockchain Solutions Architect](https://img.shields.io/badge/Certified%20Blockchain%20Solutions%20Architect-009688.svg)](https://www.blockchaintrainingalliance.com/certifications/certified-blockchain-solutions-architect/)
+[![Certified Blockchain Data Scientist](https://img.shields.io/badge/Certified%20Blockchain%20Data%20Scientist-3f51b5.svg)](https://www.blockchaintrainingalliance.com/certifications/certified-blockchain-data-scientist/)
+[![Certified Blockchain Business Foundations](https://img.shields.io/badge/Certified%20Blockchain%20Business%20Foundations-4caf50.svg)](https://www.blockchaintrainingalliance.com/certifications/certified-blockchain-business-foundations/)
+[![Certified Hyperledger Developer](https://img.shields.io/badge/Certified%20Hyperledger%20Developer-ff5722.svg)](https://www.hyperledger.org/)
+[![Certified Blockchain for Business](https://img.shields.io/badge/Certified%20Blockchain%20for%20Business-673ab7.svg)](https://www.edx.org/professional-certificate/blockchain-for-business)
+[![Certified Blockchain Trainer](https://img.shields.io/badge/Certified%20Blockchain%20Trainer-ffcc00.svg)](https://www.blockchaintrainingalliance.com/certifications/certified-blockchain-trainer/)
+[![Certified Blockchain Project Leader](https://img.shields.io/badge/Certified%20Blockchain%20Project%20Leader-2196f3.svg)](https://www.blockchaintrainingalliance.com/certifications/certified-blockchain-project-leader/)
 
 # CryptoBank
 A decentralized banking platform providing traditional banking services like savings accounts, loans, and investments, leveraging blockchain technology for security and transparency.
