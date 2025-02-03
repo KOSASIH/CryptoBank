@@ -1,0 +1,101 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+contract CryptoBankLending {
+    address public owner;
+    uint256 public interestRate = 5; // 5% bunga per bulan
+    uint256 public penaltyRate = 2; // 2% penalti jika terlambat bayar
+    uint256 public minCollateralRatio = 150; // 150% dari jumlah pinjaman
+
+    struct Loan {
+        address borrower;
+        uint256 amount;
+        uint256 collateral;
+        uint256 interest;
+        uint256 dueDate;
+        bool repaid;
+    }
+
+    mapping(address => Loan) public loans;
+    mapping(address => uint256) public balances;
+
+    event LoanRequested(address indexed borrower, uint256 amount, uint256 collateral, uint256 interest, uint256 dueDate);
+    event LoanRepaid(address indexed borrower, uint256 amount);
+    event CollateralSeized(address indexed borrower, uint256 collateralAmount);
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Hanya owner yang dapat melakukan ini!");
+        _;
+    }
+
+    modifier noActiveLoan() {
+        require(loans[msg.sender].amount == 0, "Anda memiliki pinjaman aktif!");
+        _;
+    }
+
+    modifier hasActiveLoan() {
+        require(loans[msg.sender].amount > 0, "Anda tidak memiliki pinjaman aktif!");
+        _;
+    }
+
+    constructor() {
+        owner = msg.sender;
+    }
+
+    function requestLoan(uint256 _amount) external payable noActiveLoan {
+        require(_amount > 0, "Jumlah pinjaman harus lebih dari 0");
+        uint256 requiredCollateral = (_amount * minCollateralRatio) / 100;
+        require(msg.value >= requiredCollateral, "Jaminan tidak mencukupi");
+
+        uint256 interest = (_amount * interestRate) / 100;
+        uint256 dueDate = block.timestamp + 30 days; // Jatuh tempo dalam 30 hari
+
+        loans[msg.sender] = Loan(msg.sender, _amount, msg.value, interest, dueDate, false);
+        payable(msg.sender).transfer(_amount);
+
+        emit LoanRequested(msg.sender, _amount, msg.value, interest, dueDate);
+    }
+
+    function repayLoan() external payable hasActiveLoan {
+        Loan storage loan = loans[msg.sender];
+        require(block.timestamp <= loan.dueDate, "Pinjaman sudah jatuh tempo!");
+        require(msg.value >= loan.amount + loan.interest, "Pembayaran tidak mencukupi!");
+
+        loan.repaid = true;
+        balances[loan.borrower] += loan.collateral; // Kembalikan collateral
+        payable(msg.sender).transfer(loan.collateral);
+
+        emit LoanRepaid(msg.sender, msg.value);
+    }
+
+    function liquidateOverdueLoan(address _borrower) external onlyOwner {
+        Loan storage loan = loans[_borrower];
+        require(block.timestamp > loan.dueDate, "Pinjaman belum jatuh tempo!");
+        require(!loan.repaid, "Pinjaman sudah dilunasi!");
+
+        uint256 penalty = (loan.amount * penaltyRate) / 100;
+        balances[owner] += loan.collateral - penalty; // Owner menyita collateral setelah dikurangi penalti
+
+        delete loans[_borrower];
+
+        emit CollateralSeized(_borrower, loan.collateral);
+    }
+
+    function deposit() external payable {
+        balances[msg.sender] += msg.value;
+    }
+
+    function withdraw(uint256 _amount) external {
+        require(balances[msg.sender] >= _amount, "Saldo tidak mencukupi!");
+        balances[msg.sender] -= _amount;
+        payable(msg.sender).transfer(_amount);
+    }
+
+    function getLoanDetails(address _borrower) external view returns (Loan memory) {
+        return loans[_borrower];
+    }
+
+    function getBalance(address _user) external view returns (uint256) {
+        return balances[_user];
+    }
+}
